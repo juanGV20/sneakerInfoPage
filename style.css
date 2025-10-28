@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+:root {
+      --primary-color: #1F2937;
+      --primary-color-withe: #FAFAF8;
+      --color-blue: #3882f6;
+      --color-grey: #E5E7EB;
+      --font-size-base: 16px;
+      --color-grey-text: #898d94;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: inherit; /* usa el mismo color del texto actual */
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  background-color: var(--primary-color);
+}
+
+.header-container{  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primary-color-withe);
+    width: 80%;
+}
+
+.header-container-imagen{
+  object-fit: cover;
+}
+
+.header-container-nav{
+    display: flex;
+}
+.header-container-nav-list{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    font-weight: 900px;
+    font-size: 26px;
+}
+.main-container{
+  background-color: var(--primary-color);
+  color: var(--primary-color-withe);
+  display: flex;
+  padding-bottom: 70px;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container-hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+h1{
+  font-size: 48px;
+}
+p{
+  font-size: 22px;
+}
+.main-container-text{
+  color: var(--color-grey-text)
+}
+.main-container-hero-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  align-items: flex-start;
+  flex-basis: 45%;
+  
+}
+.buttom{
+  background-color: var(--color-blue);
+  padding: 12px;
+  border-radius: 6px;
+  color: var(--primary-color-withe);
+  text-align: center;
+}
+.offers-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 60px;
+}
+
+.offers-section-cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+#title-offer-section{
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.card-image{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.comments-section{
+  background-color: var(--color-grey);
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.comments-section-div{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 60px;
+  gap: 15px;
+  background-color: var(--color-grey);
+}
+
+.comments-section-comment{
+  font-size: 36px;
+}
+
+.comments-section-autor{
+  align-self:flex-end;
+  font-style: italic;
+}
+
+.action-section{
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.action-section-card{
+  padding: 50px 220px;
+  background-color: #3882f6;
+  border-radius: 12px;
+  color: var(--color-grey);
+  display: flex;
+  gap: 70px;
+}
+.action-section-card-text{
+  padding: 6px;
+}
+
+.buttom-action-section{
+  align-self: center;
+  border: 2px solid var(--color-grey);
+}
+
+.footer-section{
+  background-color: var(--primary-color);
+  padding: 60px;
+  text-align: center;
+  color: var(--primary-color-withe);
+}
